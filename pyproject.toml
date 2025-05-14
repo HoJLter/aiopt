@@ -1,6 +1,6 @@
 [project]
 name = "aiopt"
-version = "0.1.1"
+version = "0.1.5"
 description = "aioproxytest is a simple asynchronous lib for testing proxy servers"
 authors = [
     {name = "HoJLter",email = "hojlter.work@gmail.com"}
@@ -12,7 +12,7 @@ dependencies = [
 ]
 
 [tool.poetry]
-packages = [{include = "proxtest", from = "src"}]
+packages = [{include = "aiopt", from = "src"}]
 
 
 [build-system]
