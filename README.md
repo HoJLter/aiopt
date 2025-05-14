@@ -17,9 +17,9 @@
 
 <div>
     To install aiopt you may use pip:
-    <img src=".github/install.png">
 </div>
 
+<img src=".github/install.png">
 
 <h2>
    💡 Usage
