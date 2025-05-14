@@ -1,6 +1,11 @@
 <h1 align="center">
-    AIOproxytest
+    🌐 AIOproxytest 🌐
 </h1>
+<div align="center">
+    <a href = "https://opensource.org/licenses/MIT">
+    <img  src="https://img.shields.io/badge/License-MIT-yellow.svg">
+    </a>
+</div>
 
 <div align="center">
     <img src=".github/aiopt.png" align="center">
