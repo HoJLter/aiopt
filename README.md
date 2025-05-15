@@ -34,18 +34,19 @@
 Example:
 
 ```Python
-import asyncio
 from aiopt import check_proxies
+import asyncio
 
 
 async def main():
     proxy_list = ['https://190.58.248.86:80',
                   'http://45.12.150.82:8080']
 
-    result = await check_proxies(proxy_list=proxy_list,
-                                 url="https://httpbin.org")
+    result = await check_proxies(proxy_list)
 
-    print(result) # [(False, 'https://190.58.248.86:80'),(True, 'http://45.12.150.82:8080')]
+    print(result.proxies)         # [https://190.58.248.86:80, http://45.12.150.82:8080]
+    print(result.valid_proxies)   # [http://45.12.150.82:8080]
+    print(result.invalid_proxies) # [https://190.58.248.86:80]
 
 
 if __name__ == '__main__':
